@@ -27,6 +27,7 @@ As a reason, HTML is easier to design, than php format.
 --(屮ﾟДﾟ)屮
 
 8.Japanese site.
+--Japanese base.
 
 Appreciate for reading.
 
