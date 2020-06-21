@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>時計診断サイト</title>
+<link rel="stylesheet" href="css/money_diag.css">
+<!-- <script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/script.js"></script> -->
+</head>
+<body>
+
+    <!-- ヘッダーエリア -->
+<header id="header">
+
+      <h1 class="header__logo"><a href="index.html"><img class="logo" src="images/IMG_0039.png" alt="logo"></a></h1>
+
+</header>
+    <!-- コンテンツエリア -->
+
+<div id="wrapper">
+  <h1>＜低額編＞</h1>
+  <h1>いくら出せますか？</h1>
+  <hr>
+    <form method="post" action="money_diag5_5.php">
+      <!-- セレクトエリア -->
+      <dl>
+      <dt><br>金額選択：</dt>
+      <dd>
+      <select name="金額選択" class="money_select">
+      <option value="">金額範囲を選択してください。</option>
+      <optgroup label="0~500円台">
+      <option value="1">300</option>
+      <option value="2">500</option>
+      <optgroup label="500~3000円台">
+      <option value="3">500~3000</option>
+      <optgroup label="3000~5000円台">
+      <option value="4">3000~5000</option>
+      <optgroup label="5000~8000円台">
+      <option value="5">5000~8000</option>
+      <optgroup label="8000~10000円台">
+      <option value="6">8000~10000</option>
+      </optgroup>
+      </select>
+      </dd>
+      </dl>
+      <!-- 送信ボタンエリア -->
+      <dl>
+      <dt></dt>
+      <dd>
+      <input type="submit" value="送信する" class="submit_btn">
+      </dd>
+      </dl>
+     </form>
+     <!-- 前のページへ -->
+     <div class="down_link">
+     <a href="money_diag1.html"class="content_link2"><h2 class="h2_2">前のページに戻る</h2></a>
+     </div>
+</div>
+</body>
+</html>
