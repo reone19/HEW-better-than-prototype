@@ -1,0 +1,419 @@
+@charset "UTF-8";
+@import url("reset-min.css");
+body
+{
+      font-family: "游ゴシック体","Yu Gothic", "游ゴシック Medium", "Yu Gothic Medium","游ゴシック","Yu Gothic",sans-serif;
+      min-height: 100vh;
+         display: flex;
+  flex-direction: column;
+  /* background-image: url(../images/suisseDSCF9817.jpg); */
+}
+/* 全体を囲うdiv */
+#container
+{
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ヘッダーエリア */
+#header
+{
+        background-color: #fff;
+        /* height: 70px; */
+        text-align: center;
+        width: 100%;
+        /* margin: auto; */
+}
+.logo
+{
+  width: 260px;
+  height: 100px;
+  vertical-align: middle;
+}
+/* ヘッダーエリア　グローバルナビエリア */
+.gnav_clearfix>li
+{
+  text-transform: uppercase;/*文字大きくする*/
+  display: inline-block;/*横並び*/
+  letter-spacing: 1.0rem;/*文字の行間*/
+	font-weight: bold;/*フォントの太さを数値で指定します*/
+  margin:0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 40px;
+
+}
+nav li:not(:last-child)
+{
+  border-right:2px solid #ddd;
+}
+.gnav__item1
+{
+  color: #3B3B3B;
+	text-decoration: none;
+	position: relative;
+}
+.gnav__item1::after{
+	content: '';
+	width: 30px;
+	height: 2px;
+  position: absolute;
+	background-color: #333333;
+	border-radius: 1px;
+	bottom: -10px;
+	left: 10%;
+	transition: ease-out .3s width;
+}
+.gnav__item1:hover::after{
+	width: 90%;
+}
+/* リンクやホバーの色付け */
+a{
+	color: #333;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* sectionトップ背景タイトルイメージ */
+
+.maincontents
+{
+  display: flex;
+  margin: auto;
+  height: 320px;
+
+}
+.lef
+{
+  height: 200px;
+  width: 100px;
+  margin-top: 123px;
+}
+.cen
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 1000px;
+  height: 330px;
+}
+.rig
+{
+  height: 200px;
+  width: 140px;
+  margin-top: 120px;
+}
+
+
+
+/* 診断コンテンツエリア */
+.diag_wrapper
+{
+  margin: 0 auto;
+  width: 100%;
+}
+/* 各コンテンツボックスの設定 */
+.image
+{
+  width: 100%;
+  height: 200px;
+  background-color: #888;
+  margin: 10px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* コンテンツ1行目のレイアウト設定 */
+.content
+{
+  margin: 0 0 0 0;
+  display: flex;
+}
+.content_link{
+	cursor: pointer;
+}
+.left
+{
+  width: 680px;
+  height: 200px;
+  background: url(../images/sozai14.jpg) no-repeat center;
+  background-size: cover;
+	transition: ease-out .5s ;
+	background-size: 100%;
+	float: left;
+}
+.left:hover
+{
+	background-size: 115%;
+}
+.content_title
+{
+	text-align: left;
+	color: #fff;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 0.5rem;
+	margin-left: -0.2rem;
+  padding: 70px;
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+.content_title .small{
+	font-size: 14px;
+  opacity: 0.9;
+}
+.center
+{
+  width: 700px;
+  height: 350px;
+  background: url(../images/d_img2.jpg) no-repeat center;
+  background-size: cover;
+	transition: ease-out .5s ;
+	background-size: 100%;
+	float: left;
+}
+.center:hover
+{
+  background-size: 115%;
+}
+.content_title1
+{
+  text-align: left;
+	color: #fff;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 0.5rem;
+	margin-left: 0px;
+  padding: 20px;
+  margin-top: 50px;
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+.content_title1 .small
+{
+	font-size: 14px;
+  opacity: 0.7;
+}
+.right
+{
+  width: 700px;
+  height: 230px;
+  background: url(../images/tokei_maker.png) no-repeat center;
+  background-size: cover;
+	transition: ease-out .5s ;
+	background-size: 100%;
+	float: left;
+}
+.right:hover
+{
+  background-size: 115%;
+}
+.content_title2
+{
+  text-align: left;
+	color: #fff;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 0.1rem;
+	margin-left: 20px;
+  padding: 70px;
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+.content_title2 .small
+{
+	font-size: 14px;
+  opacity: 0.7;
+}
+/* 診断コンテンツ2行目レイアウト */
+.content2
+{
+  margin: 0 0 0 0;
+  display: flex;
+}
+.content_link2{
+	cursor: pointer;
+}
+.left2
+{
+  width: 700px;
+  height: 350px;
+  /* background: url(../images/d_img2.jpg) no-repeat center; */
+  background-size: cover;
+	transition: ease-out .5s ;
+	background-size: 100%;
+	float: left;
+}
+.left2:hover
+{
+  background-size: 115%;
+}
+.content_title3
+{
+  text-align: left;
+	color: #fff;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 0.1rem;
+	margin-left: 20px;
+  padding: 70px;
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+.content_title3 .small
+{
+	font-size: 14px;
+  opacity: 0.7;
+}
+.center2
+{
+  width: 680px;
+  height: 330px;
+  background: url(../images/ude.jpg) no-repeat center;
+  background-size: cover;
+	transition: ease-out .5s ;
+	background-size: 100%;
+	float: left;
+}
+.center2:hover
+{
+  background-size: 115%;
+}
+.content_title4
+{
+  text-align: left;
+	color: #fff;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 0.1rem;
+	margin-left: 0px;
+  padding: 70px;
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+.content_title4 .small
+{
+	font-size: 14px;
+  opacity: 0.7;
+}
+.right2
+{
+  width: 700px;
+  height: 250px;
+  background: url(../images/money3.jpg) no-repeat center;
+  background-size: cover;
+	transition: ease-out .5s ;
+	background-size: 100%;
+	float: left;
+}
+.right2:hover
+{
+  background-size: 115%;
+}
+.content_title5
+{
+  text-align: left;
+	color: #fff;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 0.1rem;
+  padding: 70px;
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+.content_title5 .small
+{
+	font-size: 14px;
+  opacity: 0.7;
+}
+
+
+
+/* フッターエリア */
+footer
+{
+	color: #fff;
+
+}
+.to_top
+{
+	background-color: #121212;
+	padding: 10px;
+}
+.top
+{
+	letter-spacing: 0.07rem;
+	text-indent: -0.07rem;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+}
+
+.footer_nav_wrapper
+{
+	background-color: #1A1A1A;
+	padding: 30px 0 20px 0;
+}
+.sns_set{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.sns_set>li{
+	display: inline-block;
+}
+.sns_set>li>img
+{
+	width: 100%;
+}
+.instagram,.facebook
+{
+	margin-right: 20px;
+}
+.sns_link
+{
+	display: inline-block;
+	width: 100%;
+}
+.sns_link:hover
+{
+	opacity: 0.8;
+}
+.footer_nav
+{
+	text-align: center;
+}
+.footer_nav>li
+{
+	display: inline-block;
+	font-size: 14px;
+	letter-spacing: 0.07rem;
+	text-indent: -0.07rem;
+	margin-right: 30px;
+}
+.f_nav_link
+{
+	color: #fff;
+	position: relative;
+}
+.f_nav_link::after
+{
+	content: '';
+	display: inline-block;
+	width: 20px;
+	height: 1px;
+	background-color: #fff;
+	border-radius: 1px;
+	position: absolute;
+	bottom: -7px;
+	left: 0;
+	transition: ease-out .3s width;
+}
+.f_nav_link:hover::after
+{
+	width: 100%;
+}
+.privacy_policy,.specified_commercial.about
+{
+	margin-right: 50px;
+}
+.copyright
+{
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	letter-spacing: 0.07rem;
+	text-indent: -0.07rem;
+	font-size: 12px;
+}

@@ -1,0 +1,182 @@
+@charset "UTF-8";
+@import url("reset-min.css");
+body
+{
+      font-family: "游ゴシック体","Yu Gothic", "游ゴシック Medium", "Yu Gothic Medium","游ゴシック","Yu Gothic",sans-serif;
+      /* min-height: 100vh; */
+         display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  color: #fff;
+  background-image: url(../images/background_diag.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#header
+{
+
+        /* height: 70px; */
+        text-align: center;
+        width: 100%;
+        /* margin: auto; */
+}
+.logo
+{
+  width: 260px;
+  height: 100px;
+  vertical-align: middle;
+}
+a{
+	color: #333;
+	text-decoration: none;
+	cursor: pointer;
+}
+/* コンテンツエリア */
+#wrapper
+{
+  width: 960px;
+  background-color: rgba(20,24,20,0.8);
+  margin:0 auto;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+h1
+{
+  font-size: 30px;
+}
+.content
+{
+    margin: 10px 0 10px 0;
+    display: flex;
+}
+.content_link
+{
+	cursor: pointer;
+}
+.image{
+    width: 25%;
+    height: 200px;
+    background-color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+.left
+{
+  width: 100%;
+  height: 200px;
+  background: url(../high_img/select1.jpg) no-repeat center;
+  background-size: cover;
+	transition: ease-out .5s ;
+	background-size: 200%;
+	float: left;
+}
+.left:hover
+{
+	background-size: 160%;
+}
+.content_title1
+{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 0.5rem;
+	margin-left: -0.2rem;
+  /* padding: 70px; */
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+.left2
+{
+  width: 100%;
+  height: 200px;
+  background: url(../high_img/select8.jpg) no-repeat center;
+  background-size: cover;
+	transition: ease-out .5s ;
+	background-size: 170%;
+	float: left;
+}
+.left2:hover
+{
+	background-size: 200%;
+}
+.content_title2
+{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 0.5rem;
+	margin-left: -0.2rem;
+  /* padding: 70px; */
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+.right
+{
+  width: 100%;
+  height: 200px;
+  background: url(../high_img/select3.jpg) no-repeat center;
+  background-size: cover;
+	transition: ease-out .5s ;
+	background-size: 150%;
+	float: left;
+}
+.right:hover
+{
+	background-size: 115%;
+}
+.content_title3
+{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 32px;
+	letter-spacing: 0.2rem;
+	margin-left: -0.2rem;
+  /* padding: 70px; */
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+.right2
+{
+  width: 100%;
+  height: 200px;
+  background: url(../high_img/select6.jpg) no-repeat center;
+  background-size: cover;
+	transition: ease-out .5s ;
+	background-size: 130%;
+	float: left;
+}
+.right2:hover
+{
+	background-size: 158%;
+}
+.content_title4
+{
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 0.2rem;
+	margin-left: -0.2rem;
+  /* padding: 70px; */
+	text-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+.down_link
+{
+  background-color: #1a4;
+  width: 20%;
+  text-align: left;
+  margin-left: 23px;
+}
+.content_link2
+{
+  cursor: pointer;
+}
+.h2_2
+{
+  display: block;
+  text-align: center;
+  color: #fff;
+}
