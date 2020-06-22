@@ -2,7 +2,8 @@ attention!! (Please read this discription.)
 
 Dear my friends..
 
-HEW : Relatively safer than in the past
+HEW : Diagnosis　site(watch&clock)
+(better than in the past)
 (!But it's too dirty......)
 
 1.The form submission format of this diagnostic site is as follows.........
