@@ -16,7 +16,7 @@ As a reason, HTML is easier to design, than php format.
 3.In the diagnostic part of php, I didn't know how to make a diagnostic function in php.
 --(So I made it like that)......(´▽｀)?
 
-4.In design, It was able to do my best thanks to the support of many people.
+4.In design, It was able to do my best, thanks to the support of many people.
 --Thank you every one to help
 
 5.Regarding the JS folder, The content is Jquery.
